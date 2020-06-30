@@ -1,0 +1,18 @@
+//======== Container ==============//
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, var(--color-primary-light), var(--color-primary-dark));
+
+    @include respond(medium) {
+        padding: 4rem;
+    }
+
+    @include respond(small) {
+        align-items: center;
+        justify-content: center;
+    }
+}

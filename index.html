@@ -11,9 +11,13 @@
 <body>
     <!-- Navigtion -->
     <nav class="nav">
+        <div class="nav__logo">
+            <h1 class="nav__logo-header">Logo</h1>
+        </div>
+
         <a href="#" class="nav__item">Home</a>
         <a href="#" class="nav__item">About Us</a>
-        <a href="#" class="nav__item">Join Meetings</a>
+        <a href="#" class="nav__item">Sign in</a>
     </nav>
 
     <!-- Main Container section -->
@@ -27,11 +31,15 @@
             </div>
 
             <div class="form__group">
-                <label for="#password" class="form__label">Password</label>
+                <label for="#password" class="form__label">
+                    <span>Password</span>
+                    <a href="#" class="form__passwd-reset">forgot password ?</a>
+                </label>
                 <input type="password" id="password" class="form__input" placeholder="Password" required />
             </div>
 
-            <button type="submit" class="form__btn"></button>
+            <button type="submit" class="form__btn">Sign in</button>
+            <a href="#" class="form__create-account">Create new account</a>
         </form>
     </main>
 </body>
