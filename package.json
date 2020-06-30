@@ -1,0 +1,15 @@
+{
+  "name": "login_form",
+  "version": "1.0.0",
+  "description": "a simple login design",
+  "main": "index.html",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/app.css -w"
+  },
+  "author": "victechie",
+  "license": "ISC"
+}
